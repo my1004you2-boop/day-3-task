@@ -1,0 +1,45 @@
+===== 카페 피드백 대시보드 실행 결과 =====
+확인 일시: 2026-06-26
+
+[설치된 패키지]
+- streamlit  1.58.0  ✅ 이미 설치됨
+- plotly     6.6.0   ✅ 이미 설치됨
+- pandas     2.3.3   ✅ 이미 설치됨
+
+[Python 경로]
+C:\Users\my100\AppData\Local\Programs\Python\Python313\python.exe
+
+[대시보드 실행 상태]
+- 서버: Uvicorn (Streamlit 내장)
+- 포트: 8501
+- 포트 열림 여부: ✅ True
+- HTTP 응답 코드: ✅ 200 OK
+
+[접속 URL]
+- 로컬:   http://localhost:8501
+- 네트워크: http://192.168.0.15:8501
+
+[대시보드 파일]
+- 경로: C:\Users\my100\OneDrive\Desktop\내일배움캠프\AX 해커톤\day3\dashboard.py
+
+[수동 실행 명령어 (터미널에서 직접 실행 시)]
+C:\Users\my100\AppData\Local\Programs\Python\Python313\Scripts\streamlit.exe run "C:\Users\my100\OneDrive\Desktop\내일배움캠프\AX 해커톤\day3\dashboard.py"
+
+[대시보드 구성 요약]
+1. 상단 KPI 카드: 유형별 건수 (불만/요청/칭찬/문의)
+2. 유형 분포 도넛 차트 (Plotly)
+3. 경로별 스택 바 차트 (앱리뷰/설문/전화메모/인스타DM)
+4. 가장 급한 불만 TOP 3 (컬러 카드)
+5. 유형 필터 + 전체 피드백 테이블
+
+[피드백 분류 결과]
+- 불만: 8건
+- 칭찬: 7건
+- 문의: 4건
+- 요청: 3건
+- 합계: 22건
+
+[가장 급한 불만 TOP 3]
+#1 결제 완료 후 포인트 미적립 + 환불 요청 (별점 1점 / 금전 피해, 2026-05-14)
+#2 직원 주문 실수 2회 반복 (별점 1점 / 서비스 신뢰 훼손, 2026-05-22)
+#3 주문 후 20분 대기 (별점 1점 / 운영 문제, 2026-05-07)
